@@ -1,0 +1,2 @@
+Since sets do not store indexed data or duplicates, they use less memory than lists and are less computationally expensive. 
+The set solution take less time to search through. This is the reason to prefer this solution.
