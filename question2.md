@@ -12,5 +12,5 @@ For example, given a text file `numbers.txt` with the following content:
 
 The function should return 10.
 
-You can assume  the file is in the same directory as the script.
+You can assume the file is in the same directory as the script.
 
