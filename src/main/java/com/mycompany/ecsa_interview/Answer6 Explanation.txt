@@ -1,0 +1,6 @@
+Comparison and Considerations:
+Complexity: The complexity of this solution is O(n^2) because of the loops, where n is the number of elements .Space complexity is O(1).
+Advantages: Simple to implement, straightforward instructions.
+
+Solution 2: Using Sets (Optimized)
+The Python solution using sets optimizes the search by using a set to store seen numbers and checking for the complement (target - current number).
