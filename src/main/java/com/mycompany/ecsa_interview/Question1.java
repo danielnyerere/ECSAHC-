@@ -4,12 +4,15 @@
  */
 package com.mycompany.ecsa_interview;
 
+import java.util.Arrays;
+
 /**
  *
  * @author THPS
  */
 public class Question1 {
-    public static String[] popSnap(int n) {
+   public static String[] popSnap(int n) {
+        // Validate the input to be within the constraints 1 <= n <= 100
         if (n < 1 || n > 100) {
             throw new IllegalArgumentException("n must be between 1 and 100 inclusive");
         }
@@ -32,10 +35,22 @@ public class Question1 {
     }
 
     public static void main(String[] args) {
-        int n = 15; // Example input
-        String[] output = popSnap(n);
-        for (String s : output) {
-            System.out.println(s);
-        }
+        // Test with n = 3
+        int n1 = 3;
+        String[] output1 = popSnap(n1);
+        System.out.println("Input: n = " + n1);
+        System.out.println("Output: " + Arrays.toString(output1));
+
+        // Test with n = 5
+        int n2 = 5;
+        String[] output2 = popSnap(n2);
+        System.out.println("Input: n = " + n2);
+        System.out.println("Output: " + Arrays.toString(output2));
+
+        // Test with n = 15
+        int n3 = 15;
+        String[] output3 = popSnap(n3);
+        System.out.println("Input: n = " + n3);
+        System.out.println("Output: " + Arrays.toString(output3));
     }
 }
