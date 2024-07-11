@@ -3,4 +3,4 @@ Complexity: The complexity of this solution is O(n^2) because of the loops, wher
 Advantages: Simple to implement, straightforward instructions.
 
 Solution 2: Using Sets (Optimized)
-The Python solution using sets optimizes the search by using a set to store seen numbers and checking for the complement (target - current number).
+The Java solution using sets optimizes the search by using a set to store seen numbers and checking for the complement (target - current number).
