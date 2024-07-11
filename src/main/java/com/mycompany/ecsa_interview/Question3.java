@@ -28,4 +28,10 @@ public class Question3 {
         }
     }
 
+    
+    public static void main(String[] args) {
+        Object[] array = {1, new Object[]{2, 3}, new Object[]{new Object[]{4}, new Object[]{5}}};
+        List<Integer> flatArray = flatten(array);
+        System.out.println(flatArray);  // Output: [1, 2, 3, 4, 5]
+    }
 }
