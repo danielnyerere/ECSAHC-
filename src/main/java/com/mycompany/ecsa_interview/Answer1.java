@@ -10,7 +10,7 @@ import java.util.Arrays;
  *
  * @author THPS
  */
-public class Question1 {
+public class Answer1 {
    public static String[] popSnap(int n) {
         // Validate the input to be within the constraints 1 <= n <= 100
         if (n < 1 || n > 100) {

@@ -11,7 +11,7 @@ import java.util.List;
  *
  * @author THPS
  */
-public class Question3 {
+public class Answer3 {
     public static List<Integer> flatten(Object[] array) {
         List<Integer> result = new ArrayList<>();
         flattenHelper(array, result);

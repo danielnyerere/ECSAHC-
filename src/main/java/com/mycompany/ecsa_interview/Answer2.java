@@ -12,7 +12,7 @@ import java.io.IOException;
  *
  * @author THPS
  */
-public class Question2 {
+public class Answer2 {
     public static int sumIntegersFromFile(String filename) {
         int sum = 0;
         try (BufferedReader br = new BufferedReader(new FileReader(filename))) {
