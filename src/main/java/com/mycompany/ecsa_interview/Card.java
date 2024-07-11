@@ -9,16 +9,14 @@ package com.mycompany.ecsa_interview;
  * @author THPS
  */
 public class Card {
-    private String suit;
-    private String rank;
+    private final String suit;
+    private final String rank;
 
-    // Constructor
     public Card(String suit, String rank) {
         this.suit = suit;
         this.rank = rank;
     }
 
-    // Getters
     public String getSuit() {
         return suit;
     }
