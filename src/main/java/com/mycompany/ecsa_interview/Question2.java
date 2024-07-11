@@ -25,14 +25,14 @@ public class Question2 {
                 }
             }
         } catch (IOException e) {
-//            e.printStackTrace();
+            System.out.println(e.getMessage());
         }
         return sum;
     }
 
     public static void main(String[] args) {
         // Example usage
-        String filename = "numbers.txt"; // Ensure this file exists in the same directory as the script
+        String filename = "C:\\Users\\THPS\\Documents\\NetBeansProjects\\ECSA_Interview\\src\\main\\java\\com\\mycompany\\ecsa_interview\\numbers.txt"; // Ensure this file exists in the same directory as the script
         int result = sumIntegersFromFile(filename);
         System.out.println("The sum of integers in the file is: " + result);
     }
